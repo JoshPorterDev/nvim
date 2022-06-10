@@ -5,6 +5,8 @@ return require('packer').startup(function()
   use 'nvim-telescope/telescope.nvim'
   
   use 'nvim-treesitter/nvim-treesitter'
+  use 'neovim/nvim-lspconfig'
+  use 'williamboman/nvim-lsp-installer'
 
   -- Color Schemes
   use 'lucasprag/simpleblack'
