@@ -1,0 +1,5 @@
+require('settings')
+require('mappings')
+require('modules.customline')
+require('colorschemes-config.simpleblack')
+require('packer-config')
