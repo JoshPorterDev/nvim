@@ -21,4 +21,5 @@ return require('packer').startup(function()
 
   -- Color Schemes
   use 'lucasprag/simpleblack'
+  use 'ghifarit53/tokyonight-vim'
 end)

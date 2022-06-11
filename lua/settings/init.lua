@@ -1,7 +1,9 @@
 local set = vim.opt
 
 set.number = true
+set.relativenumber = true
 
+set.list = true
 set.laststatus=2
 set.expandtab = true
 set.shiftwidth = 4
