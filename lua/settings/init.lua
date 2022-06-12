@@ -3,6 +3,7 @@ local set = vim.opt
 set.number = true
 set.relativenumber = true
 
+set.guicursor = "a:ver90"
 set.list = true
 set.laststatus=2
 set.expandtab = true
