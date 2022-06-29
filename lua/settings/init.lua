@@ -13,5 +13,5 @@ set.tabstop = 4
 set.hlsearch = false
 set.wrap = false
 
-set.termguicolors = true
+set.termguicolors = false
 set.hidden = true

@@ -19,8 +19,10 @@ return require('packer').startup(function()
   use "rafamadriz/friendly-snippets"
 
   use "windwp/nvim-autopairs"
+  use 'lilydjwg/colorizer'
 
   -- Color Schemes
+  use 'dylanaraps/wal.vim'
   use 'lucasprag/simpleblack'
   use 'ghifarit53/tokyonight-vim'
 end)
