@@ -5,3 +5,5 @@ vim.g.mapleader = ' '
 
 map('n', '<S-f>', ':Telescope find_files<CR>', opts)
 map('n', '<S-g>', ':Telescope live_grep<CR>', opts)
+
+map('n', '<C-f>', ':NvimTreeToggle<CR>', opts)

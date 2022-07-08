@@ -20,9 +20,12 @@ return require('packer').startup(function()
 
   use "windwp/nvim-autopairs"
   use 'lilydjwg/colorizer'
+  use 'kyazdani42/nvim-web-devicons'
+  use 'nvim-lualine/lualine.nvim'
+  use 'kyazdani42/nvim-tree.lua'
 
   -- Color Schemes
+  use 'folke/tokyonight.nvim'
   use 'dylanaraps/wal.vim'
   use 'lucasprag/simpleblack'
-  use 'ghifarit53/tokyonight-vim'
 end)
