@@ -1,5 +1,7 @@
 local map = vim.api.nvim_set_keymap
 
+vim.g.mapleader = ','
+
 -- Telescope keymaps
 map('n', '<S-f>', ':Telescope find_files<CR>', { noremap = true, silent = true})
 map('n', '<S-g>', ':Telescope live_grep<CR>', { noremap = true, silent = true})
@@ -23,4 +25,4 @@ map('n', '<left>', '<C-w><left>', { noremap = false})
 map('n', '<right>', '<C-w><right>', { noremap = false})
 
 -- Toggle nvim tree
-map('n', '<C-f>', ':NvimTreeToggle<CR>', { noremap = true, silent = true})
+map('n', '<leader>f', ':NvimTreeToggle<CR>', { noremap = true, silent = true})
