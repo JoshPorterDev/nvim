@@ -24,8 +24,11 @@ return require('packer').startup(function()
   use 'nvim-lualine/lualine.nvim'
   use 'kyazdani42/nvim-tree.lua'
   use 'lewis6991/gitsigns.nvim'
+  use 'numToStr/Comment.nvim'
 
   -- Color Schemes
+  use "VDuchauffour/neodark.nvim"
+  use 'navarasu/onedark.nvim'
   use 'folke/tokyonight.nvim'
   use 'dylanaraps/wal.vim'
   use 'lucasprag/simpleblack'
