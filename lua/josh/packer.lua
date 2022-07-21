@@ -25,7 +25,7 @@ return require("packer").startup(function(use)
 
     -- Appearance plugins
     use "windwp/nvim-autopairs"
-    use "lilydjwg/colorizer"
+    use "norcalli/nvim-colorizer.lua"
     use "kyazdani42/nvim-web-devicons"
     use "nvim-lualine/lualine.nvim"
     use "kyazdani42/nvim-tree.lua"

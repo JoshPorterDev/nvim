@@ -6,6 +6,7 @@ require("josh.settings.options")
 require("josh.bufferline")
 require("josh.lualine")
 require("josh.colorschemes.onedark")
+require("josh.colorizer")
 
 -- Utility
 require("josh.autopair")
