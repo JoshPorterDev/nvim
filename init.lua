@@ -1,16 +1,21 @@
-require('settings')
-require('mappings')
---require('modules.customline')
-require('lualine-config')
-require('cmp-config')
---require('colorschemes-config.tokyonight')
-require('colorschemes-config.onedark-config')
-require('nvim-tree-config')
-require('modules.transparency')
-require('packer-config')
-require('treesitter-config')
-require('telescope-config')
-require('gitsigns-config')
-require('lsp-config')
-require('autopair')
-require('comment-nvim-config')
+-- Options and keymaps
+require("josh.settings.mappings")
+require("josh.settings.options")
+
+-- Appearance
+require("josh.bufferline")
+require("josh.lualine")
+require("josh.colorschemes.onedark")
+
+-- Utility
+require("josh.autopair")
+require("josh.cmp")
+require("josh.comment")
+require("josh.gitsigns")
+require("josh.lsp")
+require("josh.nvimtree")
+require("josh.telescope")
+require("josh.treesitter")
+
+-- Package manager
+require("josh.packer")
