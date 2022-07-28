@@ -116,7 +116,7 @@ require("lspconfig").cssls.setup {
 }
 
 -- C C++ and C#
-require('lspconfig').clangd.setup {}
+--require('lspconfig').clangd.setup {}
 
 -- Lua
 require('lspconfig').sumneko_lua.setup {
