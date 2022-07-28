@@ -3,10 +3,12 @@ require("josh.settings.mappings")
 require("josh.settings.options")
 
 -- Appearance
-require("josh.bufferline")
+require("josh.colorschemes.base16")
 require("josh.lualine")
-require("josh.colorschemes.onedark")
 require("josh.colorizer")
+
+-- Custom stuff
+require("josh.custom.transparency")
 
 -- Utility
 require("josh.autopair")

@@ -34,6 +34,7 @@ return require("packer").startup(function(use)
     use "akinsho/bufferline.nvim"
 
     -- Color Schemes
+    use "RRethy/nvim-base16"
     use "EdenEast/nightfox.nvim"
     use "rebelot/kanagawa.nvim"
     use "VDuchauffour/neodark.nvim"
