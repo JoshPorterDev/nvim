@@ -115,6 +115,11 @@ require("lspconfig").cssls.setup {
     }
 }
 
+-- Emmet
+require'lspconfig'.emmet_ls.setup{
+    filetypes = { "html", "htmldjango", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less" },
+}
+
 -- C C++ and C#
 --require('lspconfig').clangd.setup {}
 
