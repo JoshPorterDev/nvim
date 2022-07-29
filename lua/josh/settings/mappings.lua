@@ -12,11 +12,12 @@ map("n", "<leader>q", ":q<CR>", { noremap = true})
 map("i", "jj", "<Esc>", { noremap = true})
 
 -- Format file using lsp
-map("n", "<S-p>", ":lua vim.lsp.buf.formatting_sync()<CR>", { noremap = true, silent = true})
+map("n", "<S-p>", ":lua vim.lsp.buf.format()<CR>", { noremap = true, silent = true})
 
 -- Telescope keymaps
 map("n", "<S-f>", ":Telescope find_files<CR>", { noremap = true, silent = true})
 map("n", "<leader>g", ":Telescope live_grep<CR>", { noremap = true, silent = true})
+map("n", "<s-g>", ":Telescope git_status<CR>", { noremap = true, silent = true})
 
 -- Packer Sync
 map("n", "<leader>ps", ":PackerSync<cr>", { noremap = true, silent = true})
@@ -30,13 +31,7 @@ map("n", "<leader>sr", ":%s/<C-R><C-W>//gI<left><left><left>", { noremap = false
 -- Replace word under cursor on line
 map("n", "<leader>sl", ":s/<C-R><C-W>//gI<left><left><left>", { noremap = false})
 
--- Remove all lines with comments
---  Works with comments like //
---map("n", "<leader>rc", ":g/\/\//d/<CR>", { noremap = false, silent = true })
-
 -- Move between windows
---map("n", "<up>", "<C-w><up>", { noremap = false})
---map("n", "<down>", "<C-w><down>", { noremap = false})
 map("n", "<left>", "<C-w><left>", { noremap = false})
 map("n", "<right>", "<C-w><right>", { noremap = false})
 
