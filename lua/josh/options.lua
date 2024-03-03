@@ -9,6 +9,7 @@ set.autoindent = true
 set.smartindent = true
 set.scrolloff = 10
 set.wrap = false
+set.laststatus = 3
 
 -- Netrw
 vim.g.netrw_banner = 0
