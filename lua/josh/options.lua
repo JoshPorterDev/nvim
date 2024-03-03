@@ -12,6 +12,9 @@ set.wrap = false
 set.signcolumn = "yes"
 set.laststatus = 3
 
+set.splitright = true
+set.splitbelow = true
+
 -- Netrw
 vim.g.netrw_banner = 0
 vim.g.netrw_liststyle = 3
