@@ -9,6 +9,7 @@ set.autoindent = true
 set.smartindent = true
 set.scrolloff = 10
 set.wrap = false
+set.signcolumn = "yes"
 set.laststatus = 3
 
 -- Netrw
