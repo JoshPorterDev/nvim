@@ -8,3 +8,4 @@ set.tabstop = 4
 set.autoindent = true
 set.smartindent = true
 set.scrolloff = 10
+set.wrap = false
